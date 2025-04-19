@@ -10,8 +10,8 @@ body {
     padding: 0;
     height: 100vh;
     overflow-x: hidden;
-    background-color: #1a1a1a; /* Fondo general oscuro */
-    color: #f5f5f5;
+    background-color: #ffffff; /* Fondo claro */
+    color: #1a1a1a;
 }
 
 html, body {
@@ -27,7 +27,7 @@ html, body {
     width: 90%;
     max-width: 1200px;
     margin: 50px auto;
-    background-color: #2a2a2a; /* Fondo más oscuro */
+    background-color: #f5f5f5; /* Fondo contenedor claro */
     background-image: url(resources/Background_decor@2x.png);
     background-repeat: no-repeat; 
     background-position: top left;
@@ -46,19 +46,19 @@ html, body {
 .header span {
     font-size: 1rem;
     font-weight: 500;
-    color: #4F9CF9;
+    color: #2A6CF9;
 }
 
 .header h1 {
     font-size: 2.5rem;
-    color: #ffffff;
+    color: #1a1a1a;
     font-weight: 600;
     margin: 10px 0;
 }
 
 .header p {
     font-size: 1rem;
-    color: #dcdcdc;
+    color: #4a4a4a;
 }
 
 .memb {
@@ -82,8 +82,8 @@ html, body {
     left: 0;
     width: 100%;
     padding: 20px;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.9) 100%);
-    color: #fff;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.9) 100%);
+    color: #1a1a1a;
     text-align: left;
 }
 
@@ -101,28 +101,28 @@ html, body {
 .memb-link {
     padding: 20px;
     text-align: center;
-    background-color: #333333;
+    background-color: #eeeeee;
 }
 
 .memb-link a {
     text-decoration: none;
-    color: #b0c4ff;
+    color: #2A6CF9;
     font-size: 1rem;
     font-weight: 500;
 }
 
 .memb-link a img {
     width: 15px;
-    filter: brightness(0) invert(1); /* Blanquea la flechita en fondo oscuro */
+    filter: brightness(0); /* Flecha oscura */
 }
 
-/* Tarjetas con colores adaptados al tema oscuro */
-.memb:nth-child(2) { background-color: #443C78; }
-.memb:nth-child(3) { background-color: #7C3B5B; }
+/* Tarjetas con colores claros / pastel */
+.memb:nth-child(2) { background-color: #E5E1FB; }
+.memb:nth-child(3) { background-color: #F8D7E3; }
 .memb:nth-child(4) { order: 4; }
-.memb:nth-child(5) { background-color: #375C88; }
-.memb:nth-child(6) { background-color: #6B4B2A; }
-.memb:nth-child(7) { background-color: #3A6B5E; }
+.memb:nth-child(5) { background-color: #DDEAF8; }
+.memb:nth-child(6) { background-color: #F4E1CB; }
+.memb:nth-child(7) { background-color: #D8F2EB; }
 
 @media (min-width:640px) and (max-width: 1024px) {
     .container {
@@ -148,12 +148,12 @@ html, body {
 }
 
 .author-info {
-    border-top: 1px solid #3d3d3d;
+    border-top: 1px solid #ccc;
     padding: 10px;
-    background-color: #222222;
+    background-color: #f9f9f9;
     font-size: 14px;
     text-align: center;
-    color: #aaa;
+    color: #666;
     position: fixed;
     bottom: 0px;
     left: 0;
@@ -161,6 +161,7 @@ html, body {
 }
 
 .author-info a {
-    color: #aaa;
+    color: #666;
     text-decoration: underline;
 }
+
